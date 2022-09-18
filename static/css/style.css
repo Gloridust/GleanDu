@@ -95,7 +95,7 @@ main {
     align-items: center;
     width: 500px;
     height: 130px;
-    margin-top: 5%;
+    margin-top: 10%;
     /* border-radius: 35px 35px 35px 35px; */
     /* background-color: rgba(255, 255, 255,1); */
 }
@@ -289,10 +289,10 @@ li.duckduckgo {
     position: absolute;
     top: 50%;
     right: 10px;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
     cursor: pointer;
-    color: #040404;
-    font-size: 30px;
+    color: #3c3c3c;
+    font-size: 20px;
 }
 
 .search-submit {
