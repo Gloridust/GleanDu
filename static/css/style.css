@@ -96,14 +96,14 @@ main {
     width: 500px;
     height: 130px;
     margin-top: 10%;
-    border-radius: 35px 35px 35px 35px;
+    /* border-radius: 35px 35px 35px 35px; */
     /* background-color: rgba(255, 255, 255,1); */
 }
 
 .logo-left {
     position: relative;
     cursor: pointer;
-    border-radius: 35px 35px 35px 35px;
+    /* border-radius: 35px 35px 35px 35px; */
 }
 
 .img {
@@ -233,7 +233,7 @@ li.duckduckgo {
 .search-result {
     display: none;
     position: absolute;
-    width: 837px;
+    width: 195px;
     top: 55px;
     left: 40px;
     border: 1px solid rgba(187, 187, 187, 1);
@@ -267,6 +267,7 @@ li.duckduckgo {
     border: 0;
     font-size: 16px;
     padding-left: 15px;
+    
 }
 
 
