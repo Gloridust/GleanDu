@@ -93,9 +93,9 @@ main {
     display: flex;
     overflow: hidden;
     align-items: center;
-    width: 70%;
-    height: 200px;
-    margin-top: 8%;
+    width: 500px;
+    height: 130px;
+    margin-top: 10%;
     border-radius: 35px 35px 35px 35px;
     /* background-color: rgba(255, 255, 255,1); */
 }
@@ -124,7 +124,7 @@ main {
 /* 搜索框 start */
 
 .search-section {
-    margin-top: 5%;
+    margin-top: 2%;
     /* margin-bottom: 60px; */
 }
 
