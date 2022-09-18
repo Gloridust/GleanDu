@@ -10,7 +10,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="static/img/favicon.ico">
     <link href="static/css/style.css" rel="stylesheet" type="text/css">
-
+    <!-- 适配PWA -->
+    <link rel="manifest" href="manifest.json">
+    <script type="text/javascript">
+        if (navigator.serviceWorker != null) {
+            navigator.serviceWorker.register('sw.js')
+            .then(function(registration) {
+                console.log('Registered events at scope: ', registration.scope);
+            });
+        }
+    </script>
     <!-- 适配ios网页图标 -->
     <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="GleanDu">
